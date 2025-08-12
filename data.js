@@ -1,4 +1,4 @@
-[
+data = [
    {
     "id": "bian",
     "name": "BIAN",

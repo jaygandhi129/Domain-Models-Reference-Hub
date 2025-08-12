@@ -9,16 +9,12 @@ const detailComponents = document.getElementById('detail-components');
 const detailReferences = document.getElementById('detail-references');
 const backBtn = document.getElementById('back-btn');
 
-let domainData = [];
-let filteredData = [];
+let domainData = data;
+let filteredData = data;
+console.log(domainData);
 
-fetch('data.json')
-  .then(res => res.json())
-  .then(data => {
-    domainData = data;
-    filteredData = data;
-    renderCards(filteredData);
-  });
+
+renderCards(filteredData);
 
 function renderCards(data) {
   cardsContainer.innerHTML = '';
