@@ -1,0 +1,5 @@
+title: "Domain Models Reference"
+description: "Supplementary reference for research paper."
+theme: minima  # You can change to any GitHub Pages theme
+markdown: kramdown
+baseurl: "" # Leave empty for user.github.io/repository
