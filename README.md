@@ -1,6 +1,6 @@
-# Domain Models Reference
+# Domain Models Reference Hub
 
-This repository hosts a **public wiki-style website** that contains concise descriptions, references, and links for various domain models.  
+This repository hosts a **wiki-style website** that contains descriptions, references, and links for various domain models.  
 The site is structured for easy navigation, making it a useful supplementary resource for researchers, students, and professionals.
 
 ## Features
@@ -11,7 +11,7 @@ The site is structured for easy navigation, making it a useful supplementary res
 - Built with Jekyll and hosted on GitHub Pages
 
 ## Purpose
-The goal of this site is to create an **open, easy-to-navigate knowledge base** for people who work with or study domain models, without overcrowding research papers with long descriptions.
+The goal of this site is to create an **open, easy-to-navigate knowledge base** for people who work with or study domain models.
 
 ## Access the Site
 Visit: `https://<your-username>.github.io/<your-repo-name>/`
