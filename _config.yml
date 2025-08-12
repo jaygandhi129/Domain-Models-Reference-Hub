@@ -1,7 +1,7 @@
 title: "Domain Models Reference"
-description: "A wiki-style reference for domain models"
+description: "A wiki-style reference for domain models with fixed sidebar navigation."
 remote_theme: poole/hyde
 plugins:
   - jekyll-remote-theme
 markdown: kramdown
-baseurl: ""
+baseurl: ""  # adjust if necessary
