@@ -1,4 +1,7 @@
 title: "Domain Models Reference"
 description: "A wiki-style reference for domain models"
-theme: minima
+remote_theme: poole/hyde
+plugins:
+  - jekyll-remote-theme
 markdown: kramdown
+baseurl: ""

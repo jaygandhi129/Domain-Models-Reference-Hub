@@ -9,4 +9,3 @@ title: Model 1
 
 **Reference:** [Author et al., Year](https://doi.org/xxxx)  
 
-{% include sidebar.html %}

@@ -8,5 +8,3 @@ title: Model 1
 **Description:** A short summary of the model goes here.  
 
 **Reference:** [Author et al., Year](https://doi.org/xxxx)  
-
-{% include sidebar.html %}
