@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Domain Models Reference Wiki</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="data.js"></script>
+        <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Domain Models Reference</h1>
+            <p>Comprehensive guide to industry standard domain models and frameworks</p>
+        </header>
+
+        <nav class="sidebar" id="sidebar">
+            <!-- Navigation will be populated by JavaScript -->
+        </nav>
+
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="content-section active">
+                <h2 class="page-title">Domain Models Overview</h2>
+                <input type="text" class="search-box" id="searchBox" placeholder="Search domain models, entities, or concepts...">
+                
+                <div id="domainCards">
+                    <!-- Domain cards will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Dynamic sections will be created by JavaScript -->
+            <div id="dynamicSections">
+                <!-- Content sections will be populated by JavaScript -->
+            </div>
+
+            <!-- Static sections -->
+            <section id="getting-started" class="content-section">
+                <h2 class="page-title">Getting Started</h2>
+                
+                <div class="model-section">
+                    <h4>How to Use This Wiki</h4>
+                    <p>This reference guide provides detailed information about various industry-standard domain models. Each section includes:</p>
+                    <ul>
+                        <li>Overview and purpose of the domain model</li>
+                        <li>Core entities and their relationships</li>
+                        <li>Key concepts and terminology</li>
+                        <li>Implementation guidelines and best practices</li>
+                        <li>Links to official specifications and resources</li>
+                    </ul>
+                </div>
+
+                <div class="model-section">
+                    <h4>Navigation</h4>
+                    <p>Use the sidebar to navigate between different domain models. Each model is organized into logical sections for easy reference.</p>
+                </div>
+
+                <div class="model-section">
+                    <h4>Adding New Models</h4>
+                    <p>To add a new domain model, simply update the <code>data.js</code> file with your model information. The structure includes:</p>
+                    <pre><code>{
+  id: "unique-id",
+  name: "Model Name",
+  description: "Brief description",
+  category: "Category Name",
+  tags: ["tag1", "tag2"],
+  entities: [...],
+  concepts: [...],
+  links: [...]
+}</code></pre>
+                </div>
+            </section>
+
+            <section id="contribute" class="content-section">
+                <h2 class="page-title">Contribute</h2>
+                
+                <div class="model-section">
+                    <h4>How to Contribute</h4>
+                    <p>This is an open-source documentation project. You can contribute by:</p>
+                    <ul>
+                        <li>Adding new domain models to <code>data.js</code></li>
+                        <li>Improving existing documentation</li>
+                        <li>Correcting errors or outdated information</li>
+                        <li>Adding examples and use cases</li>
+                    </ul>
+                </div>
+
+                <div class="model-details">
+                    <h4>GitHub Repository</h4>
+                    <p>Fork the repository, make your changes, and submit a pull request. All contributions are welcome!</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
